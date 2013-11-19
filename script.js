@@ -119,7 +119,7 @@ function paint(){
 			game_loop=setInterval(paint,speed);
 			console.log(speed);
 		}
-
+//bob wasnt here
 	}
 	else{
 		tail=snake.pop();
@@ -173,6 +173,5 @@ function checkCollision(x,y,array){
 		
 init();
 rainbowPower();
-//Bob was here
 
 //console.log(snake);
